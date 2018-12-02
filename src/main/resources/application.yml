@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /auth-server
+  port: 9999
+
+security:
+  hmac: 734cc62f32841568f45715aeb9f4d7891324e6d948e4c6c60c0621cdac48623a
+
+spring:
+  profiles:
+    active: test
