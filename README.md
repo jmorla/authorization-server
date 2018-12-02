@@ -16,14 +16,14 @@ Install the dependencies and start the server.
 
 ```sh
 $ cd authorization-server
-$ mvn spring-boot:run
+$ gradle bootRun
 ```
 
 
 If exist any conflict with the port then
 
 ```sh
-$ mvn spring-boot:run -Dserver.port=2000
+$ mvn bootRun -Dserver.port=2000
 ```
 
 
